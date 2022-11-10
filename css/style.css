@@ -117,8 +117,8 @@ body {
         font-size: 15px;
     font-family: arial, sans-serif;
     color: #202124;
-    margin-left: 50px;
         font-family: arial, sans-serif;
+        height: fit-content;
         
 }
 
@@ -134,8 +134,7 @@ div {
 
 
 .main-container {
-  margin-left: 20px;
-  margin-top: 30px;
+  margin-left:clamp(5rem , 5vw , 8rem);
     width: 620px;
 }
 
@@ -191,3 +190,100 @@ strong {
     line-height: 1.58;
     margin-bottom: 8px;
 }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.footer{
+    height: fit-content;
+}
+
+.upper-footer{
+    background-color:   rgb(245, 243, 254);
+    height: fit-content;
+    color: burlywood;
+    border-top: 14px;
+
+}
+
+.together{
+    display: inline-block;
+
+}
+
+
+span{
+    font-size: 15px;
+    margin-left: 40px;
+    text-decoration: none;
+    
+}
+
+.country{
+    padding-top: 3px;
+}
+
+
+
+strong{
+    color: rgb(107, 101, 101);
+}
+
+.current-l{
+    display: inline-block;
+    /* margin-bottom: 30%; */
+    margin-left: 8.5%;
+    border-left: 1px solid grey;
+    text-decoration: none;
+    line-height: 60px;
+    font-family: arial,sans-serif;
+    color: rgb(86, 86, 207);
+
+}
+
+/* .current-l, .stg{
+    margin-right: %;
+} */
+
+.current-l:hover{
+    color: rgb(86, 86, 207);
+}
+
+
+.location{
+    /* padding-bottom: 100%; */
+    margin-left: var(--center-abs-margin);
+    color: grey;
+}
+
+
+
+.lower-footer{
+    background-color:  rgb(245, 243, 254);
+    /* height: 50%; */
+    border-top:solid 1px grey;
+    padding: 1.5rem 0;
+ 
+    
+}
+
+.lower-footer a{
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-left: 40px;
+    color: grey;
+    font-family: arial,sans-serif;
+}
+
+a:hover{
+    color: rgb(98, 96, 96);
+}
+
+
+
+
+
+
