@@ -1,26 +1,54 @@
-*{
+* {
     margin: 0;
     border: none;
     box-sizing: border-box;
     background-color: #ffffff;
 }
-body{
+
+.content {
+    color: #4d5156;
+    line-height: 1.58;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+body {
+    font-family: arial, sans-serif;
+    color: #202124;
+    margin-left: 50px;
+}
+
+.main-body1 {
+    font-family: arial, sans-serif;
+    color: #202124;
+    margin-left: 50px;
+}
+
+div {
+    line-height: 0.5em;
+}
+
+body {
     font-family: arial, sans-serif;
     font-size: 14px;
 }
-.main-container{
-    margin: 20px 200px;
+
+.main-container {
+    margin-left: 10px;
     width: 620px;
 }
-.result-section{
+
+.result-section {
     margin: 20px;
 }
-.urllink a{
+
+.urllink a {
     color: #5f6368;
     line-height: 1.3;
     text-decoration: none;
 }
-.PAS{
+
+.PAS {
     display: block;
     color: #4d5156;
     width: 620px;
@@ -30,27 +58,34 @@ body{
     padding-bottom: 8px;
     line-height: 20px;
 }
-h3 a{
+
+h3 a {
     color: #681DA8;
     text-decoration: none;
 }
-h3 a:hover{
+
+h3 a:hover {
     text-decoration: underline;
 }
-.headerlink{
+
+.headerlink {
     font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 1.3;
+    display: inline-block;
 }
-strong{
+
+strong {
     color: #5f6368;
 }
-.description{
+
+.description {
     color: #4d5156;
     line-height: 1.58;
 }
-.description3{
+
+.description3 {
     color: #4d5156;
     line-height: 1.58;
     margin-bottom: 8px;
